@@ -13,8 +13,9 @@ html {
 .main-header {
   padding: 15px;
   text-align: center;
-  background: #009900;
-  color: white;
+  background: #008000;
+  color: #00ace6;
+  font-family: 'Heebo', sans-serif;
 }
 .ponder-press {
   font-size: 6rem;
@@ -39,10 +40,15 @@ html {
   background-color: #ddd;
   color: black;
 }
-.yeti {
-
+h4:hover {
+  border: 3px dotted orange;
 }
-
+h4 {
+  transition: border 4s ease-in 1s;
+}
+.main-content-images {
+  width: 100%;
+}
 /* Column container */
 .row {
   display: flex;
@@ -63,8 +69,20 @@ html {
   background-color: white;
   padding: 20px;
 }
-
-/* Fake image, just for this example */
+.main-copy p::first-letter {
+  font-size: 200%;
+}
+ ul li:nth-child(odd) {
+  color: #00ace6;
+}
+.endeavors-photos {
+  display: flex;
+}
+.endeavors-photos > div {
+margin: 10px;
+padding: 20px;
+font-size: 20px;
+}
 .yeti {
   background-color: #aaa;
   width: 100%;
