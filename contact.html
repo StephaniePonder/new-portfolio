@@ -44,15 +44,19 @@
       <label>Your state:
         <input type="email" name="applicantState">
       </label>
+      <br>
+      <label>Email:
+        <input type="email" name="applicantEmail">
+      </label>
       </fieldset>
 
       <fieldset class="checkbox">
         <legend>What crafts are you interested in?</legend>
-      <label>Jewelry
-        <input type="checkbox" name="crafts"
+        <label>Jewelry
+         <input type="checkbox" name="crafts"
         value="jewelry">
         <span class="checkmark"></span>
-      </label>
+       </label>
       <label>Handmade books
         <input type="checkbox" name="crafts"
         value="handmade-books">
@@ -62,17 +66,18 @@
         <input type="checkbox" name="craftss"
         value="mixed-media">
         <span class="checkmark"></span>
-      </label>
-      <label>Cross stitch
+       </label>
+       <label>Cross stitch
         <input type="checkbox" name="crafts"
         value="cross-stitch">
         <span class="checkmark"></span>
-      </label>
-      <label>Other
+       </label>
+       <label>Other
         <input type="checkbox" name="crafts"
         value="other">
         <span class="checkmark"></span>
-         </fieldset>
+        </label>
+      </fieldset>
 
         <fieldset>
            <legend>Are you intereted in video tutorials?</legend>
@@ -90,21 +95,21 @@
         <legend class="message-font">Message</legend>
         <label>
           <textarea name="applicantOther" rows="10"
-          cols="80"></textarea>
+          cols="80">Enter your message here ...</textarea>
           </label>
       </fieldset>
 
 
-
        <fieldset>
          <legend>Sign up for my newsletter</legend>
-         <label>Your email:
-           <input type="email" name="applicantEmail">
+         <label>
+           <input type="radio" name="special" value="yes">
+            Sign me up!
          </label>
-            </fieldset>
-
+      </fieldset>
 
       <input class="submit-font" type="submit" value="Submit">
+      </form>
   </article>
 </div>
 
