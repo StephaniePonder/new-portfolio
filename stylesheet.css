@@ -123,6 +123,8 @@ fieldset {
 }
 fieldset input {
   display: inline;
+  padding: 10px;
+  margin: 15px;
 }
 .message-font {
   font-size: 30px;
