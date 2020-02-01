@@ -117,3 +117,29 @@ font-size: 20px;
     flex-direction: column;
   }
 }
+fieldset {
+  border:none;
+  padding: 15px;
+}
+fieldset input {
+  display: inline;
+}
+.message-font {
+  font-size: 30px;
+}
+input[type=submit] {
+  width: 30%;
+  background-color: #ff6600;
+}
+.submit-font {
+  font-size: 20px;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #008000;
+}

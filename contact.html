@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Ponder Press</title>
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://kit.fontawesome.com/6be87d7bef.js" crossorigin="anonymous"></script>
+<link href="https://fonts.googleapis.com/css?family=Slabo+27px&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Heebo&display=swap" rel="stylesheet">
+</head>
+<!--adapted template from w3schools, https://www.w3schools.com/css/css3_flexbox.asp-->
+<body>
+
+<header class="main-header">
+  <h1 class="ponder-press">Ponder Press</h1>
+</header>
+<nav class="top-navigation">
+  <a href="index.html">Home</a>
+  <a href="bead-embroidery.html">Bead embroidery</a>
+  <a href="keycaps.html">Keycaps</a>
+  <a href="other-endeavors.html">Other endeavors</a>
+  <a href="about-me.html">About me</a>
+  <a href="contact.html">Contact</a>
+</nav>
+
+<div class="row">
+  <div class="sidebar-style">
+    <h2>Announcements</h2>
+    <h4>See you in May.</h4>
+    <img class="yeti" src="images/yeti.jpg" alt="Image of site author with a lit-up Yeti.">
+    <p>I'm in making mode until May, when the <a href="http://redmondsaturdaymarket.org">Redmond Saturday Markets</a> reopens.</p>
+    <p>Keep an eye on this space for additional updates.</p>
+  </div>
+  <article class="main-copy">
+    <h2>Sign up for my newsletter or just say hi</h2>
+
+    <form method="GET">
+      <fieldset>
+      <label>Your name:
+      <input type="text" name="applicantName">
+      </label>
+      <br>
+      <label>Your state:
+        <input type="email" name="applicantState">
+      </label>
+      </fieldset>
+
+      <fieldset class="checkbox">
+        <legend>What crafts are you interested in?</legend>
+      <label>Jewelry
+        <input type="checkbox" name="crafts"
+        value="jewelry">
+        <span class="checkmark"></span>
+      </label>
+      <label>Handmade books
+        <input type="checkbox" name="crafts"
+        value="handmade-books">
+        <span class="checkmark"></span>
+      </label>
+      <label>Mixed media
+        <input type="checkbox" name="craftss"
+        value="mixed-media">
+        <span class="checkmark"></span>
+      </label>
+      <label>Cross stitch
+        <input type="checkbox" name="crafts"
+        value="cross-stitch">
+        <span class="checkmark"></span>
+      </label>
+      <label>Other
+        <input type="checkbox" name="crafts"
+        value="other">
+        <span class="checkmark"></span>
+         </fieldset>
+
+        <fieldset>
+           <legend>Are you intereted in video tutorials?</legend>
+          <label>
+            <input type="radio" name="special" value="yes">
+             Yes
+            </label>
+            <label>
+              <input type="radio" name="special" value="no">
+              No
+            </label>
+        </fieldset>
+
+      <fieldset>
+        <legend class="message-font">Message</legend>
+        <label>
+          <textarea name="applicantOther" rows="10"
+          cols="80"></textarea>
+          </label>
+      </fieldset>
+
+
+
+       <fieldset>
+         <legend>Sign up for my newsletter</legend>
+         <label>Your email:
+           <input type="email" name="applicantEmail">
+         </label>
+            </fieldset>
+
+
+      <input class="submit-font" type="submit" value="Submit">
+  </article>
+</div>
+
+<footer class="social-media-style">
+  <h2>Follow me</h2>
+  <a href="https://www.instagram.com/ponderpress/"> <i class="fab fa-instagram"></i></a>
+  <a href="https://www.facebook.com/stephanie.ponder"> <i class="fab fa-facebook"></i></a>
+  <a href="https://www.etsy.com/shop/PonderPressDesigns"> <i class="fab fa-etsy"></i></a>
+</footer>
+</body>
+</html>
